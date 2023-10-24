@@ -32,3 +32,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+bootJar{
+	archiveBaseName = 'toquiz-socket'
+	archiveFileName = 'toquiz-socket.jar'
+	archiveVersion = "0.0.0"
+}
